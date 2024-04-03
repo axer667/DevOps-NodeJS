@@ -9,7 +9,6 @@ app.post('/user', (req, res) => {
         data += chunk;
     });
     req.on("end", () => {
-        console.log(data);
         res.end("done: " + data);
     });
 });
