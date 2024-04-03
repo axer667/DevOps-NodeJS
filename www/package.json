@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type" : "module",
   "scripts": {
     "dev": "nodemon index.js",
     "prod": "node index.js"
   },
   "author": "axer667",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
   "devDependencies": {
     "nodemon": "^2.0.19"
   }
