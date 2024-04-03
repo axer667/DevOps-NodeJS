@@ -1,0 +1,14 @@
+{
+  "name": "default-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "author": "axer667",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
